@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url(../Fonts/Roboto-Light.ttf);
+}
+
+header {
+	width: 100vw;
+	height: 55px;
+	background-color: rgba(0, 103, 163, 1);
+	padding: 0 16px 0 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	width: 331px;
+	height: 26px;
+	color: white;
+	font-size: 28px;
+	font-family: 'Roboto-Black';
+}
+
+.userProfile {
+	width: 64px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.userFoto {
+	width: 38.4px;
+	height: 38.4px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.userFoto-pointer {
+	width: 24px;
+	height: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
